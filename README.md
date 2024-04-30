@@ -18,5 +18,5 @@ An AD domain is a collection of objects within an AD network. An object can be a
 
 <h2>Walk-through for Deploying AD and Creating Users:</h2>
 
-- I began by creating 2 virtual machines in Azure. The first VM was a Windows server VM on which I would later install and configure Active Directory, thereby making it the Domain Controller. The second VM was a Windows 10 VM which I configured as a client device, joining the DC.
+- I began by creating 2 virtual machines in Azure. The first VM was a Windows server VM on which I would later install and configure Active Directory, thus making it the Domain Controller. The second VM was a Windows 10 VM which I configured as a regular Windows 10 device and joined it to the DC.
 - The
