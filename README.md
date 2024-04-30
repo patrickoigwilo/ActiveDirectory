@@ -14,7 +14,7 @@ An AD domain is a collection of objects within an AD network. An object can be a
 
 - Microsoft Azure Cloud Environment
 - 2 Virtual Machines: Windows server VM (Domain Controller) and Windows 10 VM (Client)
-- Microsoft PowerShell
+- Microsoft PowerShell for creating some random users on the DC
 
 <h2>Walk-through for Deploying AD and Creating Users:</h2>
 
