@@ -10,13 +10,16 @@ A Domain Controller (DC), the server that runs the Active Directory Domain Servi
 
 An AD domain is a collection of objects within an AD network. An object can be a single user or a group of users or a hardware component, such as a computer or printer.
 
+![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/79d87df2-dfb8-4404-b9ca-509436f000b4)
+
+
 <h2>Environments and Technologies Used:</h2>
 
 - Microsoft Azure Cloud Environment
 - 2 Virtual Machines: Windows server VM (Domain Controller) and Windows 10 VM (Client)
-- Microsoft PowerShell for creating some random users on the DC
+- Microsoft PowerShell script for creating some random users on the DC
 
 <h2>Walk-through for Deploying AD and Creating Users:</h2>
 
-- I began by creating 2 virtual machines in Azure. The first VM was a Windows server VM on which I would later install and configure Active Directory, thus making it the Domain Controller. The second VM was a Windows 10 VM which I configured as a regular Windows 10 device and joined it to the DC.
+- I began by creating 2 virtual machines in Azure. The first VM was a Windows server VM on which I would later install and configure Active Directory, thus making it the Domain Controller. The second VM was a Windows 10 VM which I configured as a regular Windows 10 client device and joined it to the DC.
 - The
