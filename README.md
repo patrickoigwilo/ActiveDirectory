@@ -30,5 +30,13 @@ An AD domain is a collection of objects within an AD network. An object can be a
 ![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/aa642f1f-91e5-4b4f-8699-7a4c63cb8418)
 
 - <h4>To install Active Directory on the Windows Server VM (DC):</h4>
-- I remotely connected to the Domain Controller VM using the Remote Desktop Connection application, installed Active Directory Domain Services and promoted it to Domain Controller.
+- I remotely connected to the Windows Server VM using the Remote Desktop Connection application, installed Active Directory Domain Services and promoted the server to Domain Controller with the forest root domain, mydomain.com.
+![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/51d046d7-9028-45d0-9457-14b01a71e9fb)
+
+![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/85b71e13-7395-4a50-b586-3f0e1adc954b)
+
+- After creating the forest root domain, I restarted AD DS and created a couple of organisational units and an admin user named Jane Doe.
+
+![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/fb6aa538-c12f-46f4-8c60-807d93e78994)
+
 - 
