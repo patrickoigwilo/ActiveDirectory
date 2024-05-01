@@ -22,4 +22,4 @@ An AD domain is a collection of objects within an AD network. An object can be a
 <h2>Walk-through for Deploying AD and Creating Users:</h2>
 
 - I began by creating 2 virtual machines in Azure. The first VM was a Windows server VM on which I would later install and configure Active Directory, thus making it the Domain Controller. The second VM was a Windows 10 VM which I configured as a regular Windows 10 client device and joined it to the DC.
-- The
+- A few things to note: When VMs are created, they are automatically assigned NICs or Network Interface Cards which carry their IP addresses; There are two ways in which an IP address is assigned to a host automatically, either via a DHCP server (Dynamic Host Configuration Protocol) or a DNS server (Domain Naming System server) - a DNS server converts human-readable addresses to computer-readable IP addresses; Because the DC is offering AD services, I configured its IP address from dynamic to static, meaning that its IP address won't ever change as clients try to access it for data resources; Lastly, I configured the client VM to use the DC VM as its DNS server.
