@@ -17,6 +17,7 @@ An AD domain is a collection of objects within an AD network. An object can be a
 
 - Microsoft Azure Cloud Environment
 - 2 Virtual Machines: Windows server 2022 VM (Domain Controller) and Windows 10 Pro VM (Client)
+- Remote Desktop Connection application
 - Microsoft PowerShell script for creating some random users on the DC
 
 <h2>Walk-through for Deploying AD and Creating Users:</h2>
@@ -27,3 +28,7 @@ An AD domain is a collection of objects within an AD network. An object can be a
 ![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/81271f4c-4986-4efb-bd63-bf875d8854e7)
 
 ![image](https://github.com/patrickoigwilo/ActiveDirectory/assets/162601853/aa642f1f-91e5-4b4f-8699-7a4c63cb8418)
+
+- <h4>To install Active Directory on the Windows Server VM (DC):</h4>
+- I remotely connected to the Domain Controller VM using the Remote Desktop Connection application, installed Active Directory Domain Services and promoted it to Domain Controller.
+- 
